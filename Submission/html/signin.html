@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <h1>Sign In</h1>
+    <div class="items-container">
+
+        <form action="" onsubmit="event.preventDefault(); signIn();">
+            <label for="username">Enter Username: </label>
+            <input type="text" id="username" placeholder="User Name" />
+            <br>
+            <label for="password">Enter Password: </label>
+            <input type="password" id="password" placeholder="Password" />
+            <br>
+            <input type="submit" value="Sign In" id="sign-in">
+            <p id="message" class="message"></p>
+            <p>Not yet registered? <a href="../html/register.html">Click here</a> to Register</p>
+        </form>
+    </div>
+
+</body>
+
+</html>

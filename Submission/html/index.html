@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body onload="loadContent();">
+    <br />
+    <div style="display: flex; justify-content: left">
+      <button
+        style="font-size: large; background-color: cyan"
+        onclick="logout()"
+      >
+        Log Out
+      </button>
+    </div>
+
+    <!-- <div class="container"> -->
+
+    <div class="heading-container"><h3>Try New Cuisine</h3></div>
+    <div id="cuisine-list" class="items-container"></div>
+    <div class="heading-container"><h3>Get inspiration for your order</h3></div>
+    <div id="category-list" class="items-container"></div>
+    <div class="heading-container"><h3>Available restaurants</h3></div>
+    <div id="restaurant-list" class="items-container"></div>
+    <!-- </div> -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
